@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Medium Read Local",
+  "version": "1.0.0",
+  "description": "Adds a Read Local button next to Medium member-only stories that opens the article via localhost:6752.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*",
+        "http://*/*"
+      ],
+      "exclude_matches": [
+        "https://*.ru/*",
+        "http://*.ru/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 # Medium Read Local
+<img width="883" height="214" alt="image" src="https://github.com/user-attachments/assets/f9ca3727-b417-4081-936e-0fa68e21e500" />
 
 ## Что делает
 - Добавляет статьям "Member-only" доп. опцию для чтения через локальный Freedium: `http://localhost:6752/<оригинальный URL>`.
